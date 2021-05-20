@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  color: #616971; }
+/* Top bar design */
+.top-bar {
+  height: 2.6rem;
+  font-size: 1.1rem !important;
+  font-weight: 100 !important;
+  padding: 0.5rem 0; 
+  background: #4a86bb !important;
+}
+  .top-bar a {
+    text-decoration: none; }
+
+ /* Navbar Design    */
+
+nav {
+  box-shadow: 0 0.5rem .5rem rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.1rem;
+  z-index: 1; 
+}
+  nav .navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 700; }
+  nav .nav-item {
+    padding:0rem 0.5rem;
+   }
+    nav .nav-item .nav-link {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color:#5b5555 !important; }
+    nav .nav-item .nav-link:hover, nav .nav-item .active {
+      color: #4981b3!important; 
+    }
+
+    /* Carousel Design */
+    #carousel{
+      box-shadow: 0 1rem .5rem rgba(0, 0, 0, 0.1);
+    }
+    .carousel-inner{
+      max-height: 36rem !important;
+    }
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item-active{
+      transition: transform 1.2s ease;
+    }
+
+    .carousel-caption{
+      position: absolute;
+      top: 54%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+    }
+    .bg-custom{
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 1rem;
+      color: white;
+    }
+    .carousel-caption h1{
+      text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0.1);
+      font-size: 3.8rem;
+    }
+    .bordera-primary{
+      border-top: .2rem solid #4981b3 !important;
+    }
+    .carousel-caption h3{
+      font-size: 2.2rem;
+      text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 0.1);
+    }
+    .btn-lg{
+      border-radius: 0px;
+      text-transform: uppercase;
+      font-size: 1rem;
+      border-width: medium;
+    }
+    .btn-danger{
+      background-color: #AC2615;
+      border: 0.05rem solid #AC2615;
+    }
+    .btn-primary{
+      background-color: #4981b3;
+      border: .05rem solid #4981b3;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus{
+      background-color: #68a0d2 !important;
+      border: .05rem solid #68a0d2 !important;
+    }
+    /* Blog CSS */
+    #blog img{
+      max-height: 220px;
+    }
+    #blog p{
+      font-size: 0.9rem;
+    }
+
+    /* Fix Image */
+
+    .fixed{
+        background-image: url(../Img/matrix.jpg);
+        position: fixed;
+
+    }
+    .fixed-background{
+      padding: 10rem 0;
+    }
+  /* Emoji Css */
+  .emoji{
+    background-image: linear-gradient(to right,#4981b3,#ac2615);
+    min-height: 0 !important;
+    padding: .4rem 0 !important;
+  }
+  .fa{
+    color: white;
+    font-size: 2rem;
+  }
+  #foot{
+    background: #383838;
+  }
+ #foot a{
+     text-decoration: none;
+     color: white;
+ }
+ ul.social{
+   list-style-type: none;
+   display: flex;
+   max-width: 16rem;
+   margin: 0 auto;
+ }
+ ul.social li{
+   margin: 0 auto;
+ }
+ ul.social a :hover{
+   color: #4981b3;
+ }
+ .socket{
+   background: #222222;
+   color:white;
+   border-top: 0.1rem solid #4a86bb;
+ }
+ .socket a{
+   text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Fixed background images */
+    .fixed-background{
+      position: relative;
+      width: 100%;
+      z-index: 1000!important;
+    }
+    .fixed-wrap{
+      clip: rect(0,auto,auto,0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -999 !important;
+    }
+    .fixed{
+      z-index: -999 !important;
+      display: block;
+      top:0%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+
